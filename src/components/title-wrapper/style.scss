@@ -1,0 +1,42 @@
+.Title-wr {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  h1 {
+
+    font-size: 44px;
+    margin-top: 0
+  }
+
+  p {
+
+    font-size: 14px;
+    color: #C72535;
+    opacity: 60%;
+    text-transform: uppercase;
+  }
+
+  nav {
+    ul {
+      display: flex;
+      gap: 40px;
+      list-style: none;
+      align-items: center;
+      padding-left: 0;
+
+      li {
+        a {
+          text-decoration: none;
+          color: #030D15;
+          opacity: 60%;
+          &:hover{
+            opacity: 100%;
+            color: #C72535;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,58 @@
+.headerWrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+
+  nav {
+    ul {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      list-style: none;
+      color: #485362;
+
+      li {
+        font-size: 18px;
+
+        a {
+          text-decoration: none;
+          color: #485362;
+
+          &:hover {
+            color: #247CC0;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+.button-wrap {
+  display: flex;
+  gap: 10px;
+
+  button {
+    background: unset;
+    border: none;
+    cursor: pointer;
+  }
+}
+
+.cart-btn {
+  position: relative;
+  span {
+    position: absolute;
+    top: 2px;
+    right: -4px;
+    background-color: #C72535;
+    border-radius: 5px;
+    color: white;
+    padding: 3px;
+    font-size: 10px;
+  }
+}
+
+
+
